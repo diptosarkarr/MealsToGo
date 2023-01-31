@@ -5,7 +5,7 @@ import { Card } from "react-native-paper";
 
 export const RestaurantCard = styled(Card)`
   background-color:${(props) => props.theme.colors.bg.primary}};
-  padding:${(props) => props.theme.space[3]};
+  padding:${(props) => props.theme.space[2]};
   `;
 export const Info = styled(View)`
   padding-top: ${(props) => props.theme.space[3]};
